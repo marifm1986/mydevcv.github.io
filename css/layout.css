@@ -1400,6 +1400,23 @@ fieldset[disabled] .btn-theme {
     [Top margin below 480px]
 ------------------------------------------------------------------*/
 @media (max-width: 480px) {
+  .margin-b-60 p {
+    color: #444;
+    font-size: 1.8rem;
+  }
+  .text-right p {
+    color: #000;
+    font-size: 2rem;
+  }
+  .progress-box h5 {
+    font-size: 1.8rem;
+  }
+  .progress-box h5 span {
+    font-size: 1.8rem;
+  }
+  .service-info p {
+  }
+
   .xs-margin-b-0 {
     margin-bottom: 0 !important;
   }
@@ -1426,6 +1443,9 @@ fieldset[disabled] .btn-theme {
   }
   .xs-margin-b-60 {
     margin-bottom: 60px !important;
+  }
+  .xs-margin-b-60 {
+    font-size: 1.3rem;
   }
   .xs-margin-b-70 {
     margin-bottom: 70px !important;
